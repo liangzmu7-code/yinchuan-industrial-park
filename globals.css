@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f8f6f1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8f6f1;
+  color: #17202a;
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #d8bf82;
+  color: #17202a;
+}
+
+.industrial-grid {
+  background-image:
+    linear-gradient(rgba(47, 58, 69, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 58, 69, 0.08) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.hero-texture {
+  background:
+    linear-gradient(90deg, rgba(23, 32, 42, 0.92), rgba(23, 32, 42, 0.72), rgba(23, 32, 42, 0.38)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'%3E%3Crect width='1400' height='900' fill='%2379827f'/%3E%3Cg opacity='0.38'%3E%3Crect x='72' y='404' width='410' height='230' fill='%23c6b486'/%3E%3Crect x='510' y='335' width='610' height='298' fill='%238c958e'/%3E%3Crect x='118' y='304' width='262' height='100' fill='%23a95035'/%3E%3Crect x='556' y='248' width='458' height='88' fill='%235c6870'/%3E%3Cpath d='M520 335l230-96 372 96z' fill='%23b86d42'/%3E%3Cpath d='M72 404l196-112 214 112z' fill='%234a5660'/%3E%3Crect x='125' y='455' width='52' height='82' fill='%232c3842'/%3E%3Crect x='207' y='455' width='52' height='82' fill='%232c3842'/%3E%3Crect x='289' y='455' width='52' height='82' fill='%232c3842'/%3E%3Crect x='650' y='410' width='84' height='118' fill='%232c3842'/%3E%3Crect x='770' y='410' width='84' height='118' fill='%232c3842'/%3E%3Crect x='890' y='410' width='84' height='118' fill='%232c3842'/%3E%3Cpath d='M0 636h1400v264H0z' fill='%23384148'/%3E%3Cpath d='M100 704h1180' stroke='%23d8bf82' stroke-width='18' stroke-linecap='round' opacity='0.55'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+}
