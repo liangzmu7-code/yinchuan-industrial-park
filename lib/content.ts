@@ -4,11 +4,11 @@ export const siteContent = {
   zh: {
     languageSwitch: "EN",
     nav: [
-      { label: "企业概况", href: "#overview" },
-      { label: "资产亮点", href: "#assets" },
+      { label: "发展主线", href: "#overview" },
+      { label: "发展历程", href: "#history" },
+      { label: "资产价值", href: "#assets" },
       { label: "合作机会", href: "#opportunity" },
       { label: "适合对象", href: "#partners" },
-      { label: "发展历程", href: "#history" },
       { label: "联系我们", href: "#contact" }
     ],
     header: {
@@ -21,7 +21,7 @@ export const siteContent = {
       eyebrow: "宁夏银川 · 贺兰德胜工业园区 · 成熟食品工业园区资产",
       title: "一座与银川城市发展同频成长的老牌民生产业资产",
       subtitle:
-        "项目源自1963年创立的银川第一面粉厂，历经国有企业时期、改制经营阶段、整体搬迁重建阶段和产业园转型阶段，现已形成具备稳定租户、成熟基础设施、持续现金流和后续升级空间的产业园资产。",
+        "项目源自1963年创立的银川第一面粉厂，历经国有企业时期、改制经营阶段、整体搬迁重建阶段和产业园转型阶段，现已形成具备成熟入驻结构、完善基础设施和后续升级空间的产业园资产。",
       primary: "了解项目",
       secondary: "联系我们",
       stats: [
@@ -32,36 +32,39 @@ export const siteContent = {
       ]
     },
     overview: {
-      eyebrow: "企业概况",
-      title: "从老牌民生企业，到成熟食品工业园区运营主体",
+      eyebrow: "发展主线",
+      title: "按时间展开的企业发展与资产演化路径",
       description:
-        "企业前身为银川第一面粉厂，始建于1963年，是银川本地较早建立并长期服务民生供应的粮食加工企业之一。企业与宁夏早期工业化、城市民生产业建设同频成长，见证了银川城市产业结构调整与区域民生产业发展的重要历程。",
+        "项目的价值来自一条清晰的发展线索：从老牌国有民生企业，到市场化改制后的区域食品品牌，再到响应城市规划搬迁重建，最终转型为成熟食品工业园区运营资产。",
       points: [
-        "1999/2000年前后，企业完成国有制改革并由家族企业接手经营，在当时背景下具备较强稀缺性。",
-        "非典时期，企业响应市政府号召，坚持让利于民，维护粮食市场供应和价格稳定，没有借特殊时期牟取不当利益。",
-        "2001年至2007年期间，企业经营规模进入高峰阶段，年产值曾达到亿元级别，产品远销北方七个省区，并设有外地办事处。",
-        "2006-2007年，企业响应银川市政府城市规划和产业布局调整号召，整体搬迁至贺兰德胜工业园区，并计划投入约1.2亿元进行园区重建。",
-        "企业曾引进突尼斯橄榄油项目和湿面技术，体现了较早接触国际食品资源、探索消费升级产品和先进食品工艺的经营眼光。",
-        "在传统粮食加工业务逐步调整后，企业投入约8000万元转型打造食品工业园区，并形成稳定租户结构和持续租赁收益。"
+        "1963年，银川第一面粉厂创立，成为银川本地较早服务粮食加工与民生供应的企业之一，奠定了老牌民生产业的历史根基。",
+        "1999/2000年前后，企业完成国有制改革，由家族企业接续经营，从国有民生企业进入市场化发展阶段，这一经历在当时背景下具有较强稀缺性。",
+        "2001年至2007年，企业进入发展高峰，年产值曾达亿元级别，产品远销北方七个省区，并设有外地办事处，形成跨区域市场影响力。",
+        "非典时期，企业响应市政府号召，坚持让利于民、稳定供应，以实际行动维护市场秩序和企业信用。",
+        "2006-2007年，企业响应银川市城市规划和产业布局调整，整体搬迁至贺兰德胜工业园区，并启动约1.2亿元园区重建计划。",
+        "搬迁重建后，企业继续探索食品产业升级，引进突尼斯橄榄油项目和湿面技术，体现了面向国际资源与消费升级的前瞻眼光。",
+        "随着传统粮食加工业务调整，企业投入约8000万元转型打造食品工业园区，近十年入住率超过90%，形成较成熟的入驻结构和运营基础。",
+        "2022年，企业依托银川老字号、宁夏老字号品牌基础参与中华老字号申报；同一申报阶段中不乏贵州茅台、北京同仁堂等全国知名品牌，进一步凸显企业的历史内涵与品牌底蕴。",
+        "进入园区2.0阶段后，项目从基础空间运营转向企业生态打造，已承载30余家企业、约400名就业职工，并孵化数家亿元级企业。"
       ]
     },
     assets: {
       eyebrow: "资产亮点",
-      title: "历史信用、成熟现金流与园区升级空间的组合价值",
+      title: "历史信用、成熟运营与园区升级空间的组合价值",
       description:
-        "项目价值不只来自土地或建筑本身，更来自六十余年企业历史、本地民生产业信用、跨区域品牌基础、稳定租户、成熟运营和未来产业升级潜力的综合组合。",
+        "项目价值不只来自土地或建筑本身，更来自六十余年企业历史、本地民生产业信用、跨区域品牌基础、成熟入驻结构、园区运营经验和未来产业升级潜力的综合组合。",
       highlights: [
         [
-          "历史品牌与社会信用",
-          "项目承载银川老牌民生产业记忆，长期参与本地粮食加工与供应保障，在市场、政府和消费者层面形成了难以复制的历史信用。"
+          "老字号品牌与社会信用",
+          "项目拥有银川老字号、宁夏老字号品牌基础，并曾参与中华老字号申报；与同一申报阶段中的贵州茅台、北京同仁堂等代表性品牌形成参照，彰显其历史内涵、区域认知和品牌底蕴。"
         ],
         [
           "稀缺改制与经营韧性",
           "企业经历国有企业、民营经营、搬迁重建和园区转型多个阶段，说明项目经受过制度转型、市场竞争和资产重构的长期考验。"
         ],
         [
-          "稳定现金流资产",
-          "园区已运营多年，近十年入住率超过90%，拥有稳定租户和持续租金收入，为资产持有、融资安排和改造升级提供现实支撑。"
+          "成熟运营资产",
+          "园区已运营多年，近十年入住率超过90%，形成较稳定的入驻结构和经营秩序，为资产持有、改造提升和后续合作提供现实基础。"
         ],
         [
           "成熟基础设施",
@@ -73,7 +76,7 @@ export const siteContent = {
         ],
         [
           "2.0升级潜力",
-          "下一阶段可从空间出租升级为企业生态打造，围绕食品加工、冷链仓储、供应链服务、新能源配套、低碳园区和智能仓储持续提升价值。"
+          "下一阶段可从基础空间运营升级为企业生态打造，围绕食品加工、冷链仓储、供应链服务、新能源配套、低碳园区和智能仓储持续提升价值。"
         ]
       ]
     },
@@ -89,7 +92,7 @@ export const siteContent = {
         ],
         [
           "可引入战略投资",
-          "适合希望参与资产升级、园区改造、租金收益提升和长期价值重估的投资机构或产业资本。"
+          "适合希望参与资产升级、园区改造、运营效率提升和长期价值重估的投资机构或产业资本。"
         ],
         [
           "可联合开发",
@@ -122,8 +125,8 @@ export const siteContent = {
     },
     timeline: {
       eyebrow: "发展历程",
-      title: "六十余年企业沿革与资产演化路径",
-      description: "项目从粮食加工企业逐步发展为食品工业园区运营主体，形成了清晰的历史、资产和产业升级脉络。",
+      title: "从1963到园区2.0：按时间梳理项目价值形成过程",
+      description: "以下按时间顺序呈现企业从品牌起源、改制经营、市场扩张、责任担当、搬迁重建到园区升级的完整脉络。",
       events: [
         ["1963", "银川第一面粉厂创立，承担本地粮食加工与供应保障功能。"],
         ["1999/2000", "企业完成国有制改革，由家族企业接手经营，进入市场化经营阶段。"],
@@ -132,6 +135,7 @@ export const siteContent = {
         ["2006-2007", "响应银川市政府号召整体搬迁至贺兰德胜工业园区，计划投入约1.2亿元重建园区。"],
         ["产业探索期", "引进突尼斯橄榄油和湿面技术，体现面向消费升级和食品工艺创新的前瞻视野。"],
         ["转型阶段", "投入约8000万元打造食品工业园区，近十年入住率超过90%。"],
+        ["2022", "依托银川老字号、宁夏老字号品牌基础参与中华老字号申报，同一申报阶段中有贵州茅台、北京同仁堂等代表性品牌。"],
         ["园区2.0", "面向企业生态升级，已承载30余家企业、约400名就业职工，并孵化数家亿元级企业。"]
       ]
     },
@@ -142,7 +146,7 @@ export const siteContent = {
         "如您关注整体收购、联合开发、战略投资、产业导入或园区升级合作，可留下联系方式。我们将根据合作意向安排专人对接。",
       focusTitle: "沟通重点",
       focusText:
-        "资产范围、租赁现状、土地利用、开发条件、合作方式、交易结构、产业导入方向及现场考察安排。",
+        "资产范围、入驻情况、土地利用、开发条件、合作方式、交易结构、产业导入方向及现场考察安排。",
       fields: [
         ["name", "姓名", "text"],
         ["company", "公司", "text"],
@@ -162,11 +166,11 @@ export const siteContent = {
   en: {
     languageSwitch: "中文",
     nav: [
-      { label: "Profile", href: "#overview" },
-      { label: "Assets", href: "#assets" },
+      { label: "Storyline", href: "#overview" },
+      { label: "History", href: "#history" },
+      { label: "Asset Value", href: "#assets" },
       { label: "Opportunity", href: "#opportunity" },
       { label: "Partners", href: "#partners" },
-      { label: "History", href: "#history" },
       { label: "Contact", href: "#contact" }
     ],
     header: {
@@ -179,7 +183,7 @@ export const siteContent = {
       eyebrow: "Yinchuan, Ningxia · Helan Desheng Industrial Park · Mature Food Industrial Park Asset",
       title: "A long-established livelihood-industry asset that has grown with Yinchuan",
       subtitle:
-        "Originating from Yinchuan No. 1 Flour Mill founded in 1963, the project has gone through the state-owned enterprise era, market-oriented restructuring, relocation and rebuilding, and industrial park transformation. It is now a mature park asset with stable tenants, established infrastructure, recurring cash flow and room for further upgrading.",
+        "Originating from Yinchuan No. 1 Flour Mill founded in 1963, the project has gone through the state-owned enterprise era, market-oriented restructuring, relocation and rebuilding, and industrial park transformation. It is now a mature park asset with an established tenant structure, solid infrastructure and room for further upgrading.",
       primary: "Explore Project",
       secondary: "Contact Us",
       stats: [
@@ -190,36 +194,39 @@ export const siteContent = {
       ]
     },
     overview: {
-      eyebrow: "Company Profile",
-      title: "From a long-established livelihood enterprise to a mature food industrial park operator",
+      eyebrow: "Development Storyline",
+      title: "A chronological view of the company’s development and asset evolution",
       description:
-        "The predecessor of the project is Yinchuan No. 1 Flour Mill, founded in 1963. It was one of Yinchuan's early grain-processing enterprises serving local livelihood supply. The company grew alongside Ningxia's early industrialization and Yinchuan's urban livelihood industries, witnessing important stages of regional industrial transformation.",
+        "The project’s value comes from a clear development path: from a long-established state-owned livelihood enterprise, to a market-oriented regional food brand, then to relocation and rebuilding under urban planning, and finally to a mature food industrial park asset.",
       points: [
-        "Around 1999/2000, the enterprise completed state-owned enterprise restructuring and was taken over by the family business, a comparatively rare transition in that period.",
-        "During the SARS period, the company responded to the municipal government's call, chose to benefit local residents, helped stabilize grain supply and prices, and did not profit from a national emergency.",
-        "From 2001 to 2007, the company entered a peak operating stage, with annual output once reaching RMB 100 million level. Products were sold across seven northern provinces and supported by regional offices.",
-        "From 2006 to 2007, in response to Yinchuan's urban planning and industrial layout adjustment, the company relocated to Helan Desheng Industrial Park and planned to invest about RMB 120 million to rebuild the park.",
-        "The company once introduced Tunisian olive oil and fresh noodle technology, showing early exposure to international food resources, consumer-upgrade products and advanced food processes.",
-        "After the gradual adjustment of traditional grain-processing operations, the company invested about RMB 80 million to transform into a food industrial park, forming stable tenants and recurring rental income."
+        "In 1963, Yinchuan No. 1 Flour Mill was founded as one of Yinchuan's early enterprises serving grain processing and livelihood supply, laying the historical foundation of a long-established local industry.",
+        "Around 1999/2000, the enterprise completed state-owned restructuring and continued under family ownership, moving from a state-owned livelihood enterprise into a market-oriented development stage. This experience was comparatively rare in that period.",
+        "From 2001 to 2007, the company entered a peak growth period. Annual output once reached RMB 100 million level, products were sold across seven northern provinces, and regional offices supported cross-regional market influence.",
+        "During the SARS period, the company responded to the municipal government's call by benefiting local residents and stabilizing supply, reinforcing market order and corporate credibility through action.",
+        "From 2006 to 2007, in response to Yinchuan's urban planning and industrial layout adjustment, the company relocated to Helan Desheng Industrial Park and initiated a rebuilding plan of about RMB 120 million.",
+        "After relocation and rebuilding, the company continued exploring food-industry upgrading, introducing Tunisian olive oil and fresh noodle technology and showing foresight in international resources and consumer upgrading.",
+        "As traditional grain-processing operations adjusted, the company invested about RMB 80 million to build a food industrial park. With occupancy above 90% over the past decade, the park has formed a mature tenant structure and operating foundation.",
+        "In 2022, based on its Yinchuan and Ningxia Time-Honored Brand foundation, the company participated in the China Time-Honored Brand application process. The same application stage included nationally recognized brands such as Kweichow Moutai and Beijing Tongrentang, underscoring its historical depth and brand heritage.",
+        "Entering the Park 2.0 stage, the project is shifting from basic space operation to enterprise-ecosystem building. It now hosts more than 30 companies, supports about 400 jobs and has incubated several RMB 100 million-level enterprises."
       ]
     },
     assets: {
       eyebrow: "Asset Highlights",
-      title: "A combined value proposition of historical credibility, mature cash flow and park-upgrade potential",
+      title: "A combined value proposition of historical credibility, mature operations and park-upgrade potential",
       description:
-        "The project's value is not limited to land and buildings. It also comes from more than 60 years of corporate history, local livelihood-industry credibility, cross-regional brand foundation, stable tenants, mature operations and future industrial upgrading potential.",
+        "The project's value is not limited to land and buildings. It also comes from more than 60 years of corporate history, local livelihood-industry credibility, a cross-regional brand foundation, a mature tenant structure, park operating experience and future industrial upgrading potential.",
       highlights: [
         [
-          "Historic Brand and Social Credibility",
-          "The project carries Yinchuan's memory of a long-established livelihood enterprise. Its long-term role in grain processing and supply has built historical credibility across the market, government and consumer community."
+          "Time-Honored Brand and Social Credibility",
+          "The project has a brand foundation as a Yinchuan Time-Honored Brand and Ningxia Time-Honored Brand, and has participated in the China Time-Honored Brand application process. Its presence in an application stage alongside representative brands such as Kweichow Moutai and Beijing Tongrentang underscores its historical depth, regional recognition and brand heritage."
         ],
         [
           "Rare Restructuring and Operating Resilience",
           "The enterprise has gone through state ownership, private operation, relocation and rebuilding, and industrial park transformation, showing resilience through institutional transition, market competition and asset restructuring."
         ],
         [
-          "Stable Cash-Flow Asset",
-          "The park has operated for years, with occupancy above 90% over the past decade, stable tenants and recurring rental income, supporting asset holding, financing arrangements and renovation."
+          "Mature Operating Asset",
+          "The park has operated for years, with occupancy above 90% over the past decade. It has formed a stable tenant structure and operating order, providing a practical foundation for asset holding, upgrading and future cooperation."
         ],
         [
           "Mature Infrastructure",
@@ -231,7 +238,7 @@ export const siteContent = {
         ],
         [
           "2.0 Upgrade Potential",
-          "The next stage can shift from space leasing to enterprise-ecosystem building, with value uplift around food processing, cold-chain warehousing, supply-chain services, new-energy support, low-carbon parks and smart warehousing."
+          "The next stage can shift from basic space operation to enterprise-ecosystem building, with value uplift around food processing, cold-chain warehousing, supply-chain services, new-energy support, low-carbon parks and smart warehousing."
         ]
       ]
     },
@@ -247,7 +254,7 @@ export const siteContent = {
         ],
         [
           "Strategic Investment",
-          "Suitable for investment institutions or industrial capital interested in asset upgrading, park renovation, rental-income enhancement and long-term value re-rating."
+          "Suitable for investment institutions or industrial capital interested in asset upgrading, park renovation, operating-efficiency improvement and long-term value re-rating."
         ],
         [
           "Joint Development",
@@ -281,9 +288,9 @@ export const siteContent = {
     },
     timeline: {
       eyebrow: "Development History",
-      title: "More than six decades of corporate evolution and asset transformation",
+      title: "From 1963 to Park 2.0: a chronological view of value creation",
       description:
-        "The project has developed from a grain-processing enterprise into a food industrial park operator, forming a clear path of history, assets and industrial upgrading.",
+        "The following timeline presents the project’s path from brand origin, restructuring, market expansion and social responsibility to relocation, rebuilding and park upgrading.",
       events: [
         ["1963", "Yinchuan No. 1 Flour Mill was founded, serving local grain processing and supply assurance."],
         ["1999/2000", "The enterprise completed state-owned restructuring and entered market-oriented operation under family ownership."],
@@ -292,6 +299,7 @@ export const siteContent = {
         ["2006-2007", "Relocated to Helan Desheng Industrial Park in response to Yinchuan municipal planning, with a planned investment of about RMB 120 million for rebuilding."],
         ["Exploration Stage", "Introduced Tunisian olive oil and fresh noodle technology, reflecting foresight in consumer upgrading and food-process innovation."],
         ["Transformation Stage", "Invested about RMB 80 million to build a food industrial park, with occupancy above 90% over the past decade."],
+        ["2022", "Participated in the China Time-Honored Brand application process based on its Yinchuan and Ningxia Time-Honored Brand foundation, in an application stage that included representative brands such as Kweichow Moutai and Beijing Tongrentang."],
         ["Park 2.0", "Moving toward enterprise-ecosystem upgrading, the park now hosts more than 30 companies, supports about 400 jobs and has incubated several RMB 100 million-level enterprises."]
       ]
     },
@@ -302,7 +310,7 @@ export const siteContent = {
         "If you are interested in full acquisition, joint development, strategic investment, industry introduction or park-upgrade cooperation, please leave your contact information. Our team will follow up based on your cooperation interests.",
       focusTitle: "Discussion Focus",
       focusText:
-        "Asset scope, leasing status, land use, development conditions, cooperation structure, transaction structure, industry introduction direction and site visit arrangements.",
+        "Asset scope, occupancy status, land use, development conditions, cooperation structure, transaction structure, industry introduction direction and site visit arrangements.",
       fields: [
         ["name", "Name", "text"],
         ["company", "Company", "text"],

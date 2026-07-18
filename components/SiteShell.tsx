@@ -26,10 +26,10 @@ export function SiteShell() {
       <main>
         <Hero content={content.hero} />
         <Overview content={content.overview} />
+        <Timeline content={content.timeline} />
         <AssetHighlights content={content.assets} />
         <Opportunity content={content.opportunity} />
         <Partners content={content.partners} />
-        <Timeline content={content.timeline} />
         <ContactForm content={content.contact} />
       </main>
       <Footer content={content.footer} />
