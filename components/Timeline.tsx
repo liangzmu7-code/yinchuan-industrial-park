@@ -7,20 +7,22 @@ type TimelineProps = {
 
 export function Timeline({ content }: TimelineProps) {
   return (
-    <section id="history" className="bg-paper px-5 py-20 lg:px-8">
+    <section id="history" className="bg-white px-5 py-24 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow={content.eyebrow}
           title={content.title}
           description={content.description}
         />
-        <div className="mt-10 border-l-2 border-brick/35">
-          {content.events.map(([year, text]) => (
-            <div key={year} className="relative pb-9 pl-7 last:pb-0">
-              <span className="absolute -left-[9px] top-1 h-4 w-4 bg-brick ring-4 ring-paper" />
-              <p className="text-sm font-semibold tracking-[0.14em] text-brick">{year}</p>
-              <p className="mt-2 text-xl font-semibold text-ink">{text}</p>
-            </div>
+        <div className="mt-10 grid gap-px bg-iron/10 sm:grid-cols-2 lg:grid-cols-3">
+          {content.events.map(([year, text], index) => (
+            <article key={year} className="group bg-paper p-6 transition hover:bg-white hover:shadow-soft">
+              <div className="flex items-start justify-between gap-4">
+                <p className="text-sm font-semibold uppercase tracking-[0.14em] text-brick">{year}</p>
+                <span className="text-xs font-semibold text-iron/28">{String(index + 1).padStart(2, "0")}</span>
+              </div>
+              <p className="mt-5 text-base font-semibold leading-7 text-ink">{text}</p>
+            </article>
           ))}
         </div>
       </div>
