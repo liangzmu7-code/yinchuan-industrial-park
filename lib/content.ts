@@ -155,8 +155,10 @@ export const siteContent = {
         ["intent", "合作意向", "text"]
       ],
       messageLabel: "留言",
+      sending: "正在提交...",
       submit: "提交留言",
-      thanks: "感谢您的留言，我们将尽快联系您。"
+      thanks: "感谢您的留言，我们将尽快联系您。",
+      error: "提交未成功，请稍后重试，或直接发送邮件至 liangzmu7@163.com。"
     },
     footer: {
       left: "银川产业园资产战略合作项目",
@@ -319,8 +321,10 @@ export const siteContent = {
         ["intent", "Cooperation Interest", "text"]
       ],
       messageLabel: "Message",
+      sending: "Submitting...",
       submit: "Submit",
-      thanks: "Thank you for your message. We will contact you soon."
+      thanks: "Thank you for your message. We will contact you soon.",
+      error: "Submission failed. Please try again later or email liangzmu7@163.com directly."
     },
     footer: {
       left: "Yinchuan Industrial Park Strategic Partnership Project",

@@ -5,17 +5,59 @@ import { Send } from "lucide-react";
 import { SiteContent } from "@/lib/content";
 import { SectionHeading } from "./SectionHeading";
 
+const FORM_ENDPOINT = "https://formsubmit.co/ajax/liangzmu7@163.com";
+const SITE_URL = "https://yinchuan-industrial-park.vercel.app/";
+
 type ContactFormProps = {
   content: SiteContent["contact"];
 };
 
 export function ContactForm({ content }: ContactFormProps) {
   const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setMessage(content.thanks);
-    event.currentTarget.reset();
+    setIsSubmitting(true);
+    setMessage("");
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+    const payload: Record<string, string> = {
+      _subject: "银川产业园官网新留言",
+      _template: "table",
+      _captcha: "false",
+      _url: SITE_URL
+    };
+
+    content.fields.forEach(([name, label]) => {
+      payload[label] = String(formData.get(name) || "");
+    });
+    payload[content.messageLabel] = String(formData.get("message") || "");
+    payload._replyto = String(formData.get("email") || "");
+    payload._honey = String(formData.get("_honey") || "");
+
+    try {
+      const response = await fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      setMessage(content.thanks);
+      form.reset();
+    } catch {
+      setMessage(content.error);
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -33,6 +75,14 @@ export function ContactForm({ content }: ContactFormProps) {
           </div>
         </div>
         <form onSubmit={handleSubmit} className="border border-iron/10 bg-white p-6 shadow-soft sm:p-8">
+          <input
+            type="text"
+            name="_honey"
+            tabIndex={-1}
+            autoComplete="off"
+            className="hidden"
+            aria-hidden="true"
+          />
           <div className="grid gap-5 sm:grid-cols-2">
             {content.fields.map(([name, label, type]) => (
               <label key={name} className="block">
@@ -56,9 +106,10 @@ export function ContactForm({ content }: ContactFormProps) {
           </div>
           <button
             type="submit"
-            className="mt-6 inline-flex w-full items-center justify-center gap-2 bg-ink px-6 py-3 font-semibold text-white transition hover:bg-brick sm:w-auto"
+            disabled={isSubmitting}
+            className="mt-6 inline-flex w-full items-center justify-center gap-2 bg-ink px-6 py-3 font-semibold text-white transition hover:bg-brick disabled:cursor-not-allowed disabled:bg-iron/50 sm:w-auto"
           >
-            {content.submit}
+            {isSubmitting ? content.sending : content.submit}
             <Send size={18} />
           </button>
           {message ? <p className="mt-4 text-sm font-semibold leading-6 text-brick">{message}</p> : null}
