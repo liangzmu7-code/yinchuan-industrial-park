@@ -2,12 +2,12 @@ export type Language = "zh" | "en";
 
 export const siteContent = {
   zh: {
-    languageLabel: "中文",
     languageSwitch: "EN",
     nav: [
       { label: "企业概况", href: "#overview" },
       { label: "资产亮点", href: "#assets" },
-      { label: "项目机会", href: "#opportunity" },
+      { label: "合作机会", href: "#opportunity" },
+      { label: "适合对象", href: "#partners" },
       { label: "发展历程", href: "#history" },
       { label: "联系我们", href: "#contact" }
     ],
@@ -18,86 +18,131 @@ export const siteContent = {
       ariaHome: "返回首页"
     },
     hero: {
-      eyebrow: "宁夏银川 · 贺兰德胜工业园区 · 成熟运营资产",
-      title: "一座扎根银川六十余年的产业园资产，正在寻找新的战略伙伴",
+      eyebrow: "宁夏银川 · 贺兰德胜工业园区 · 成熟食品工业园区资产",
+      title: "一座与银川城市发展同频成长的老牌民生产业资产",
       subtitle:
-        "从1963年的国有粮食企业，到今天成熟运营的产业园区，我们希望与有长期视野的投资者共同推动资产升级。",
+        "项目源自1963年创立的银川第一面粉厂，历经国有企业时期、改制经营阶段、整体搬迁重建阶段和产业园转型阶段，现已形成具备稳定租户、成熟基础设施、持续现金流和后续升级空间的产业园资产。",
       primary: "了解项目",
       secondary: "联系我们",
       stats: [
-        ["60余年", "本地产业根基"],
-        ["2007至今", "园区化运营"],
-        ["成熟租户", "稳定现金流"],
-        ["可升级土地", "后续开发空间"]
+        ["60余年", "本地产业积淀"],
+        ["2001-2007", "亿元级产值阶段"],
+        ["90%+", "近十年入住率"],
+        ["30+家", "园区入驻企业"]
       ]
     },
     overview: {
-      eyebrow: "Company Profile",
-      title: "从国有粮食企业到成熟产业园运营主体",
+      eyebrow: "企业概况",
+      title: "从老牌民生企业，到成熟食品工业园区运营主体",
       description:
-        "这不是一块孤立土地，也不是单一厂房资产，而是一套经过多年运营验证的产业空间、租户基础与区域关系网络。",
+        "企业前身为银川第一面粉厂，始建于1963年，是银川本地较早建立并长期服务民生供应的粮食加工企业之一。企业与宁夏早期工业化、城市民生产业建设同频成长，见证了银川城市产业结构调整与区域民生产业发展的重要历程。",
       points: [
-        "前身始建于1963年，曾承担本地粮食加工与民生保供责任。",
-        "1999/2000年前后完成企业改制，由家族企业接手并持续经营。",
-        "2006-2007年整体搬迁至宁夏银川贺兰德胜工业园区。",
-        "目前园区化运营多年，拥有稳定租户、成熟基础设施和持续租金收入。",
-        "企业具有清晰的本地产业基础、社会信用和可延续的资产运营价值。"
+        "1999/2000年前后，企业完成国有制改革并由家族企业接手经营，在当时背景下具备较强稀缺性。",
+        "非典时期，企业响应市政府号召，坚持让利于民，维护粮食市场供应和价格稳定，没有借特殊时期牟取不当利益。",
+        "2001年至2007年期间，企业经营规模进入高峰阶段，年产值曾达到亿元级别，产品远销北方七个省区，并设有外地办事处。",
+        "2006-2007年，企业响应银川市政府城市规划和产业布局调整号召，整体搬迁至贺兰德胜工业园区，并计划投入约1.2亿元进行园区重建。",
+        "企业曾引进突尼斯橄榄油项目和湿面技术，体现了较早接触国际食品资源、探索消费升级产品和先进食品工艺的经营眼光。",
+        "在传统粮食加工业务逐步调整后，企业投入约8000万元转型打造食品工业园区，并形成稳定租户结构和持续租赁收益。"
       ]
     },
     assets: {
-      eyebrow: "Asset Highlights",
-      title: "成熟资产、稳定现金流与可升级土地的组合价值",
-      description: "项目价值来自现有运营收益、工业园区区位、基础设施沉淀和未来开发弹性。",
+      eyebrow: "资产亮点",
+      title: "历史信用、成熟现金流与园区升级空间的组合价值",
+      description:
+        "项目价值不只来自土地或建筑本身，更来自六十余年企业历史、本地民生产业信用、跨区域品牌基础、稳定租户、成熟运营和未来产业升级潜力的综合组合。",
       highlights: [
-        ["区位优势", "位于宁夏银川贺兰德胜工业园区，具备产业承接、城市配套和交通组织基础。"],
-        ["稳定现金流", "园区已有稳定租户与租金收入，具备资产持有和改造升级的现实基础。"],
-        ["成熟基础设施", "现有厂房、仓储、办公楼、道路及配套设施，可支撑多类型产业入驻。"],
-        ["土地潜力", "资产仍具备后续开发、业态更新与价值重估空间，适合长期投资人参与。"],
-        ["产业承接", "适合物流仓储、轻加工、冷链、新能源配套、数字化产业园等方向。"],
-        ["运营基础", "园区运营多年，现场管理、租户服务与基础物业秩序已形成稳定框架。"]
+        [
+          "历史品牌与社会信用",
+          "项目承载银川老牌民生产业记忆，长期参与本地粮食加工与供应保障，在市场、政府和消费者层面形成了难以复制的历史信用。"
+        ],
+        [
+          "稀缺改制与经营韧性",
+          "企业经历国有企业、民营经营、搬迁重建和园区转型多个阶段，说明项目经受过制度转型、市场竞争和资产重构的长期考验。"
+        ],
+        [
+          "稳定现金流资产",
+          "园区已运营多年，近十年入住率超过90%，拥有稳定租户和持续租金收入，为资产持有、融资安排和改造升级提供现实支撑。"
+        ],
+        [
+          "成熟基础设施",
+          "园区具备厂房、仓储、办公楼、内部道路及基础配套设施，可满足多类型企业入驻和运营需求，降低从零建设的不确定性。"
+        ],
+        [
+          "产业承接与孵化能力",
+          "园区已带动就业职工约400人，入驻企业超过30家，并孵化出数家亿元级企业，显示出较强的企业承载能力和产业培育价值。"
+        ],
+        [
+          "2.0升级潜力",
+          "下一阶段可从空间出租升级为企业生态打造，围绕食品加工、冷链仓储、供应链服务、新能源配套、低碳园区和智能仓储持续提升价值。"
+        ]
       ]
     },
     opportunity: {
-      eyebrow: "Project Opportunity",
-      title: "本次不是简单低价出售，而是寻找战略合作方",
+      eyebrow: "合作机会",
+      title: "本次重点不在简单出售，而在寻找有长期视野的战略合作方",
       description:
-        "我们更重视合作方的产业理解、资金能力、运营能力与长期视野，希望在资产优化、产业导入和园区升级之间形成可持续方案。",
-      models: ["可整体转让", "可部分合作开发", "可引入战略投资", "可共同打造新型产业园"]
+        "我们希望与具备产业理解、资金能力、资源导入能力和园区运营经验的合作方进行深入沟通。合作方式可根据双方需求和项目条件灵活设计。",
+      models: [
+        [
+          "可整体转让",
+          "适合产业地产投资方、园区运营商、不动产基金或民营产业资本，快速取得成熟运营资产。"
+        ],
+        [
+          "可引入战略投资",
+          "适合希望参与资产升级、园区改造、租金收益提升和长期价值重估的投资机构或产业资本。"
+        ],
+        [
+          "可联合开发",
+          "适合具备产业导入能力、开发建设能力或运营能力的合作方，与现有资产共同推进二次开发和业态升级。"
+        ],
+        [
+          "可共同打造新型产业园",
+          "可围绕物流仓储、冷链、食品供应链、新能源配套、低碳园区、智能仓储等领域共同导入产业资源。"
+        ]
+      ]
     },
     partners: {
-      eyebrow: "Strategic Partners",
-      title: "适合具备产业导入能力与资产运营能力的长期伙伴",
-      description: "合作方可以来自产业地产、物流仓储、冷链、新能源配套、地方平台或民营产业资本。",
+      eyebrow: "适合对象",
+      title: "适合具备产业资源、资金实力和资产运营能力的长期伙伴",
+      description: "我们欢迎关注存量资产盘活、产业园运营、食品供应链、物流仓储和区域产业升级的合作方进一步沟通。",
       list: [
         "产业地产投资方",
         "物流仓储企业",
-        "冷链企业",
+        "冷链供应链企业",
+        "食品产业集团",
         "地方国资平台",
         "民营产业投资人",
-        "新能源配套企业",
+        "不动产基金",
+        "产业园运营商",
+        "新能源及配套产业企业",
         "低碳园区运营方",
-        "智能仓储相关企业"
+        "智能仓储与供应链企业",
+        "综合开发商"
       ]
     },
     timeline: {
-      eyebrow: "Milestones",
-      title: "企业历史时间轴",
-      description: "六十余年企业沿革，形成了从粮食加工到产业园区运营的资产更新路径。",
+      eyebrow: "发展历程",
+      title: "六十余年企业沿革与资产演化路径",
+      description: "项目从粮食加工企业逐步发展为食品工业园区运营主体，形成了清晰的历史、资产和产业升级脉络。",
       events: [
-        ["1963", "银川第一面粉厂创立"],
-        ["1999/2000", "完成企业改制，家族接手经营"],
-        ["2002", "企业经营规模达到重要阶段"],
-        ["2006-2007", "搬迁至贺兰德胜工业园区"],
-        ["2007至今", "逐步发展为产业园运营主体"],
-        ["2026", "启动资产优化与战略合作"]
+        ["1963", "银川第一面粉厂创立，承担本地粮食加工与供应保障功能。"],
+        ["1999/2000", "企业完成国有制改革，由家族企业接手经营，进入市场化经营阶段。"],
+        ["2001-2007", "企业经营规模进入高峰阶段，年产值曾达到亿元级别，销售网络覆盖北方七个省区。"],
+        ["非典时期", "响应市政府号召，让利于民、稳定供应，维护市场秩序和民生价格。"],
+        ["2006-2007", "响应银川市政府号召整体搬迁至贺兰德胜工业园区，计划投入约1.2亿元重建园区。"],
+        ["产业探索期", "引进突尼斯橄榄油和湿面技术，体现面向消费升级和食品工艺创新的前瞻视野。"],
+        ["转型阶段", "投入约8000万元打造食品工业园区，近十年入住率超过90%。"],
+        ["园区2.0", "面向企业生态升级，已承载30余家企业、约400名就业职工，并孵化数家亿元级企业。"]
       ]
     },
     contact: {
-      eyebrow: "Contact",
-      title: "欢迎与我们进一步沟通项目资料与合作方案",
-      description: "如您关注整体收购、联合开发、战略投资或产业导入，可留下信息，我们会安排专人对接。",
+      eyebrow: "联系我们",
+      title: "欢迎进一步沟通项目资料、资产情况与合作方案",
+      description:
+        "如您关注整体收购、联合开发、战略投资、产业导入或园区升级合作，可留下联系方式。我们将根据合作意向安排专人对接。",
       focusTitle: "沟通重点",
-      focusText: "资产范围、租赁现状、土地利用、开发条件、交易方式、合作结构及现场考察安排。",
+      focusText:
+        "资产范围、租赁现状、土地利用、开发条件、合作方式、交易结构、产业导入方向及现场考察安排。",
       fields: [
         ["name", "姓名", "text"],
         ["company", "公司", "text"],
@@ -115,12 +160,12 @@ export const siteContent = {
     }
   },
   en: {
-    languageLabel: "English",
     languageSwitch: "中文",
     nav: [
       { label: "Profile", href: "#overview" },
       { label: "Assets", href: "#assets" },
       { label: "Opportunity", href: "#opportunity" },
+      { label: "Partners", href: "#partners" },
       { label: "History", href: "#history" },
       { label: "Contact", href: "#contact" }
     ],
@@ -131,92 +176,139 @@ export const siteContent = {
       ariaHome: "Back to home"
     },
     hero: {
-      eyebrow: "Yinchuan, Ningxia · Helan Desheng Industrial Park · Mature Operating Asset",
-      title: "An industrial park asset rooted in Yinchuan for more than 60 years is seeking a new strategic partner",
+      eyebrow: "Yinchuan, Ningxia · Helan Desheng Industrial Park · Mature Food Industrial Park Asset",
+      title: "A long-established livelihood-industry asset that has grown with Yinchuan",
       subtitle:
-        "From a state-owned grain enterprise founded in 1963 to a mature industrial park operator today, we seek long-term investors to jointly advance asset upgrading.",
+        "Originating from Yinchuan No. 1 Flour Mill founded in 1963, the project has gone through the state-owned enterprise era, market-oriented restructuring, relocation and rebuilding, and industrial park transformation. It is now a mature park asset with stable tenants, established infrastructure, recurring cash flow and room for further upgrading.",
       primary: "Explore Project",
       secondary: "Contact Us",
       stats: [
-        ["60+ Years", "Local industrial foundation"],
-        ["Since 2007", "Park-based operation"],
-        ["Stable Tenants", "Recurring cash flow"],
-        ["Upgradeable Land", "Future development capacity"]
+        ["60+ Years", "Local industrial heritage"],
+        ["2001-2007", "RMB 100M+ output stage"],
+        ["90%+", "Occupancy over the past decade"],
+        ["30+ Companies", "Tenant enterprises"]
       ]
     },
     overview: {
       eyebrow: "Company Profile",
-      title: "From a state-owned grain enterprise to a mature industrial park operator",
+      title: "From a long-established livelihood enterprise to a mature food industrial park operator",
       description:
-        "This is not an isolated parcel or a single factory asset. It is an operating industrial space with proven tenants, infrastructure and local business relationships.",
+        "The predecessor of the project is Yinchuan No. 1 Flour Mill, founded in 1963. It was one of Yinchuan's early grain-processing enterprises serving local livelihood supply. The company grew alongside Ningxia's early industrialization and Yinchuan's urban livelihood industries, witnessing important stages of regional industrial transformation.",
       points: [
-        "The predecessor was founded in 1963 and once supported local grain processing and livelihood supply.",
-        "Around 1999/2000, the enterprise completed restructuring and was taken over by the family business.",
-        "From 2006 to 2007, the company relocated to Helan Desheng Industrial Park in Yinchuan, Ningxia.",
-        "The park has operated for years with stable tenants, mature infrastructure and recurring rental income.",
-        "The company carries a clear local industrial foundation, social credibility and sustainable asset operation value."
+        "Around 1999/2000, the enterprise completed state-owned enterprise restructuring and was taken over by the family business, a comparatively rare transition in that period.",
+        "During the SARS period, the company responded to the municipal government's call, chose to benefit local residents, helped stabilize grain supply and prices, and did not profit from a national emergency.",
+        "From 2001 to 2007, the company entered a peak operating stage, with annual output once reaching RMB 100 million level. Products were sold across seven northern provinces and supported by regional offices.",
+        "From 2006 to 2007, in response to Yinchuan's urban planning and industrial layout adjustment, the company relocated to Helan Desheng Industrial Park and planned to invest about RMB 120 million to rebuild the park.",
+        "The company once introduced Tunisian olive oil and fresh noodle technology, showing early exposure to international food resources, consumer-upgrade products and advanced food processes.",
+        "After the gradual adjustment of traditional grain-processing operations, the company invested about RMB 80 million to transform into a food industrial park, forming stable tenants and recurring rental income."
       ]
     },
     assets: {
       eyebrow: "Asset Highlights",
-      title: "A combined value proposition: mature assets, stable cash flow and upgradeable land",
-      description: "Project value comes from existing operating income, industrial park location, infrastructure and future development flexibility.",
+      title: "A combined value proposition of historical credibility, mature cash flow and park-upgrade potential",
+      description:
+        "The project's value is not limited to land and buildings. It also comes from more than 60 years of corporate history, local livelihood-industry credibility, cross-regional brand foundation, stable tenants, mature operations and future industrial upgrading potential.",
       highlights: [
-        ["Location Advantage", "Located in Helan Desheng Industrial Park, Yinchuan, with industrial access, urban support and transport connectivity."],
-        ["Stable Cash Flow", "Existing tenants and rental income provide a practical base for asset holding, renovation and upgrading."],
-        ["Mature Infrastructure", "Factories, warehouses, offices, internal roads and supporting facilities can accommodate multiple industrial uses."],
-        ["Land Potential", "The asset still offers room for further development, business format renewal and long-term value enhancement."],
-        ["Industrial Fit", "Suitable for logistics, warehousing, light processing, cold chain, new energy support and digital industrial park uses."],
-        ["Operating Base", "Years of park operation have formed a stable framework for site management, tenant service and property order."]
+        [
+          "Historic Brand and Social Credibility",
+          "The project carries Yinchuan's memory of a long-established livelihood enterprise. Its long-term role in grain processing and supply has built historical credibility across the market, government and consumer community."
+        ],
+        [
+          "Rare Restructuring and Operating Resilience",
+          "The enterprise has gone through state ownership, private operation, relocation and rebuilding, and industrial park transformation, showing resilience through institutional transition, market competition and asset restructuring."
+        ],
+        [
+          "Stable Cash-Flow Asset",
+          "The park has operated for years, with occupancy above 90% over the past decade, stable tenants and recurring rental income, supporting asset holding, financing arrangements and renovation."
+        ],
+        [
+          "Mature Infrastructure",
+          "The park includes factories, warehouses, office buildings, internal roads and basic supporting facilities, serving multiple tenant types while reducing uncertainties associated with ground-up development."
+        ],
+        [
+          "Industrial Carrying and Incubation Capacity",
+          "The park has supported about 400 jobs, attracted more than 30 tenant enterprises, and incubated several RMB 100 million-level companies, demonstrating strong enterprise-carrying and incubation value."
+        ],
+        [
+          "2.0 Upgrade Potential",
+          "The next stage can shift from space leasing to enterprise-ecosystem building, with value uplift around food processing, cold-chain warehousing, supply-chain services, new-energy support, low-carbon parks and smart warehousing."
+        ]
       ]
     },
     opportunity: {
-      eyebrow: "Project Opportunity",
-      title: "This is not a simple low-price sale, but a search for a strategic partner",
+      eyebrow: "Partnership Opportunity",
+      title: "This is not a simple sale, but a search for strategic partners with a long-term vision",
       description:
-        "We value industrial insight, capital strength, operating capability and a long-term view, aiming to form a sustainable plan across asset optimization, industry introduction and park upgrading.",
-      models: ["Full asset transfer", "Partial cooperative development", "Strategic investment", "Joint development of a new industrial park"]
+        "We hope to engage partners with industrial insight, capital strength, resource introduction capability and park operation experience. Cooperation structures can be flexibly designed according to each party's needs and the project's conditions.",
+      models: [
+        [
+          "Full Asset Transfer",
+          "Suitable for industrial real estate investors, park operators, real estate funds or private industrial capital seeking quick access to a mature operating asset."
+        ],
+        [
+          "Strategic Investment",
+          "Suitable for investment institutions or industrial capital interested in asset upgrading, park renovation, rental-income enhancement and long-term value re-rating."
+        ],
+        [
+          "Joint Development",
+          "Suitable for partners with industry introduction, development or operation capabilities to jointly advance secondary development and business-format upgrading."
+        ],
+        [
+          "Joint Development of a New Industrial Park",
+          "The project can introduce resources around logistics, cold chain, food supply chains, new-energy support, low-carbon parks and smart warehousing."
+        ]
+      ]
     },
     partners: {
-      eyebrow: "Strategic Partners",
-      title: "Designed for long-term partners with industry introduction and asset operation capabilities",
-      description: "Potential partners include industrial real estate investors, logistics and warehousing operators, cold chain companies, local platforms and private industrial capital.",
+      eyebrow: "Suitable Partners",
+      title: "Designed for long-term partners with industry resources, capital strength and asset-operation capabilities",
+      description:
+        "We welcome partners interested in revitalizing existing assets, operating industrial parks, building food supply chains, logistics and warehousing, and supporting regional industrial upgrading.",
       list: [
         "Industrial real estate investors",
         "Logistics and warehousing companies",
-        "Cold chain operators",
+        "Cold-chain supply-chain companies",
+        "Food industry groups",
         "Local state-owned platforms",
         "Private industrial investors",
-        "New energy support companies",
+        "Real estate funds",
+        "Industrial park operators",
+        "New-energy and supporting enterprises",
         "Low-carbon park operators",
-        "Smart warehousing enterprises"
+        "Smart warehousing and supply-chain companies",
+        "Integrated developers"
       ]
     },
     timeline: {
-      eyebrow: "Milestones",
-      title: "Company History",
-      description: "More than six decades of development have shaped the asset path from grain processing to industrial park operation.",
+      eyebrow: "Development History",
+      title: "More than six decades of corporate evolution and asset transformation",
+      description:
+        "The project has developed from a grain-processing enterprise into a food industrial park operator, forming a clear path of history, assets and industrial upgrading.",
       events: [
-        ["1963", "Yinchuan No. 1 Flour Mill was founded"],
-        ["1999/2000", "Enterprise restructuring completed; family business took over operations"],
-        ["2002", "Business scale reached an important development stage"],
-        ["2006-2007", "Relocated to Helan Desheng Industrial Park"],
-        ["Since 2007", "Gradually developed into an industrial park operator"],
-        ["2026", "Asset optimization and strategic partnership initiative launched"]
+        ["1963", "Yinchuan No. 1 Flour Mill was founded, serving local grain processing and supply assurance."],
+        ["1999/2000", "The enterprise completed state-owned restructuring and entered market-oriented operation under family ownership."],
+        ["2001-2007", "The company reached a peak stage, with annual output once at RMB 100 million level and sales covering seven northern provinces."],
+        ["SARS Period", "Responded to the municipal government's call, benefiting local residents, stabilizing supply and maintaining market order."],
+        ["2006-2007", "Relocated to Helan Desheng Industrial Park in response to Yinchuan municipal planning, with a planned investment of about RMB 120 million for rebuilding."],
+        ["Exploration Stage", "Introduced Tunisian olive oil and fresh noodle technology, reflecting foresight in consumer upgrading and food-process innovation."],
+        ["Transformation Stage", "Invested about RMB 80 million to build a food industrial park, with occupancy above 90% over the past decade."],
+        ["Park 2.0", "Moving toward enterprise-ecosystem upgrading, the park now hosts more than 30 companies, supports about 400 jobs and has incubated several RMB 100 million-level enterprises."]
       ]
     },
     contact: {
       eyebrow: "Contact",
-      title: "Contact us for project materials and partnership discussions",
-      description: "If you are interested in full acquisition, joint development, strategic investment or industry introduction, please leave your information and our team will follow up.",
+      title: "Contact us for project materials, asset details and cooperation discussions",
+      description:
+        "If you are interested in full acquisition, joint development, strategic investment, industry introduction or park-upgrade cooperation, please leave your contact information. Our team will follow up based on your cooperation interests.",
       focusTitle: "Discussion Focus",
-      focusText: "Asset scope, leasing status, land use, development conditions, transaction structure, partnership model and site visit arrangements.",
+      focusText:
+        "Asset scope, leasing status, land use, development conditions, cooperation structure, transaction structure, industry introduction direction and site visit arrangements.",
       fields: [
         ["name", "Name", "text"],
         ["company", "Company", "text"],
         ["phone", "Phone", "tel"],
         ["email", "Email", "email"],
-        ["intent", "Partnership Interest", "text"]
+        ["intent", "Cooperation Interest", "text"]
       ],
       messageLabel: "Message",
       submit: "Submit",
@@ -224,7 +316,7 @@ export const siteContent = {
     },
     footer: {
       left: "Yinchuan Industrial Park Strategic Partnership Project",
-      right: "Rooted in Yinchuan · Mature operation · Long-term partnership"
+      right: "Rooted in Yinchuan · Mature Operation · Long-Term Partnership"
     }
   }
 } as const;
