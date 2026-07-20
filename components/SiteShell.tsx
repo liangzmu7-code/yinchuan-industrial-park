@@ -10,6 +10,7 @@ import { Opportunity } from "@/components/Opportunity";
 import { Overview } from "@/components/Overview";
 import { Partners } from "@/components/Partners";
 import { Timeline } from "@/components/Timeline";
+import { TransactionOffer } from "@/components/TransactionOffer";
 import { Language, siteContent } from "@/lib/content";
 
 export function SiteShell() {
@@ -29,6 +30,7 @@ export function SiteShell() {
         <Timeline content={content.timeline} />
         <AssetHighlights content={content.assets} />
         <Opportunity content={content.opportunity} />
+        <TransactionOffer content={content.offer} />
         <Partners content={content.partners} />
         <ContactForm content={content.contact} />
       </main>

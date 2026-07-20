@@ -21,7 +21,7 @@ export function Header({ content, onToggleLanguage }: HeaderProps) {
             <span className="block text-xs text-white/62">{content.header.subtitle}</span>
           </span>
         </a>
-        <nav className="hidden items-center gap-6 text-sm text-white/78 lg:flex">
+        <nav className="hidden items-center gap-4 text-xs text-white/78 lg:flex xl:gap-6 xl:text-sm">
           {content.nav.map((item) => (
             <a key={item.href} href={item.href} className="transition hover:text-wheat">
               {item.label}

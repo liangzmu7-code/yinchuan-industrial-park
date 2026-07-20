@@ -8,6 +8,7 @@ export const siteContent = {
       { label: "发展历程", href: "#history" },
       { label: "资产价值", href: "#assets" },
       { label: "合作机会", href: "#opportunity" },
+      { label: "出售方案", href: "#offer" },
       { label: "适合对象", href: "#partners" },
       { label: "联系我们", href: "#contact" }
     ],
@@ -26,9 +27,42 @@ export const siteContent = {
       secondary: "联系我们",
       stats: [
         ["60余年", "本地产业积淀"],
-        ["2001-2007", "亿元级产值阶段"],
+        ["市场远拓", "亿元级产值阶段"],
         ["90%+", "近十年入住率"],
         ["30+家", "园区入驻企业"]
+      ]
+    },
+    offer: {
+      eyebrow: "出售方案",
+      title: "两种资产交易方案，适配不同合作需求",
+      description:
+        "项目可按“品牌与园区整体打包”或“单独产业园区资产”两种方式洽谈。以下为当前对外沟通口径，具体资产范围、权利边界及交易条件以尽调资料和最终协议为准。",
+      note: "可配合意向方开展现场考察、资产清单核验、权属资料梳理、交易结构设计和后续交割安排。",
+      cards: [
+        {
+          label: "整体打包出售",
+          price: "7000万元",
+          title: "产业园区 + 历史品牌整体方案",
+          description: "适合希望一次性承接成熟园区资产、老字号品牌底蕴和后续园区升级空间的战略买方。",
+          items: [
+            "产业园区现有土地、厂房、仓储、办公楼、内部道路及基础配套设施",
+            "园区现有入驻结构、运营资料、客户关系和管理交接基础",
+            "银川第一面粉厂相关历史品牌资产及银川老字号、宁夏老字号品牌基础",
+            "企业历史资料、品牌故事、招商传播素材和后续园区升级叙事"
+          ]
+        },
+        {
+          label: "单独园区资产",
+          price: "6000万元",
+          title: "不含品牌权益的产业园区方案",
+          description: "适合关注存量资产盘活、园区改造、产业导入和长期运营提升的产业地产或园区运营方。",
+          items: [
+            "产业园区范围内现有建构筑物、厂房仓储、办公及道路等基础设施",
+            "现有入驻企业结构、园区运营档案、配套设施和管理交接基础",
+            "后续改造提升、二次招商、产业导入和园区2.0升级空间",
+            "不包含银川第一面粉厂历史品牌、老字号相关权益及品牌传播资产"
+          ]
+        }
       ]
     },
     overview: {
@@ -172,6 +206,7 @@ export const siteContent = {
       { label: "History", href: "#history" },
       { label: "Asset Value", href: "#assets" },
       { label: "Opportunity", href: "#opportunity" },
+      { label: "Sale Options", href: "#offer" },
       { label: "Partners", href: "#partners" },
       { label: "Contact", href: "#contact" }
     ],
@@ -190,9 +225,44 @@ export const siteContent = {
       secondary: "Contact Us",
       stats: [
         ["60+ Years", "Local industrial heritage"],
-        ["2001-2007", "RMB 100M+ output stage"],
+        ["Market Reach", "USD 15M+ output stage"],
         ["90%+", "Occupancy over the past decade"],
         ["30+ Companies", "Tenant enterprises"]
+      ]
+    },
+    offer: {
+      eyebrow: "Sale Options",
+      title: "Two transaction structures for different partnership needs",
+      description:
+        "The project can be discussed either as a full package including both the industrial park and brand value, or as a standalone industrial park asset transaction. Final asset scope, rights and transaction terms are subject to due diligence materials and definitive agreements.",
+      note: "Site visits, asset-list verification, ownership-document review, transaction-structure design and closing arrangements can be coordinated with qualified interested parties.",
+      cards: [
+        {
+          label: "Full Package Sale",
+          price: "USD 10.3M",
+          title: "Industrial park plus historical brand package",
+          description:
+            "Designed for strategic buyers seeking to acquire a mature park asset together with time-honored brand heritage and future upgrade potential.",
+          items: [
+            "Existing land, factories, warehouses, office buildings, internal roads and supporting facilities within the industrial park",
+            "Current tenant structure, operating records, customer relationships and management handover basis",
+            "Historical brand assets related to Yinchuan No. 1 Flour Mill and the Yinchuan/Ningxia Time-Honored Brand foundation",
+            "Corporate historical materials, brand story, investment-promotion materials and park-upgrade narrative assets"
+          ]
+        },
+        {
+          label: "Park-Only Asset Sale",
+          price: "USD 8.9M",
+          title: "Industrial park asset without brand rights",
+          description:
+            "Designed for industrial real estate investors or park operators focused on existing-asset revitalization, park renovation and long-term operating improvement.",
+          items: [
+            "Existing buildings, factories, warehouses, offices, roads and supporting facilities within the industrial park scope",
+            "Current tenant structure, park operating files, supporting facilities and management handover basis",
+            "Future renovation, secondary leasing, industry introduction and Park 2.0 upgrade potential",
+            "Excludes historical brand rights, time-honored brand interests and brand communication assets related to Yinchuan No. 1 Flour Mill"
+          ]
+        }
       ]
     },
     overview: {
@@ -203,13 +273,13 @@ export const siteContent = {
       points: [
         "In 1963, Yinchuan No. 1 Flour Mill was founded as Yinchuan's earliest enterprise serving grain processing and livelihood supply, laying the historical foundation of a long-established local industry.",
         "Around 2000, the enterprise completed state-owned restructuring and moved from a state-owned livelihood enterprise into a market-oriented development stage, marking an important shift in its operating mechanism and growth path.",
-        "From 2001 to 2007, the company entered a peak growth period. Annual output once reached RMB 100 million level, products were sold across seven northern provinces, and regional offices supported cross-regional market influence.",
+        "From 2001 to 2007, the company entered a peak growth period. Annual output once reached approximately USD 15 million, products were sold across seven northern provinces, and regional offices supported cross-regional market influence.",
         "During the SARS period, the company responded to the municipal government's call by benefiting local residents and stabilizing supply, reinforcing market order and corporate credibility through action.",
-        "From 2006 to 2007, in response to Yinchuan's urban planning and industrial layout adjustment, the company relocated to Helan Desheng Industrial Park and initiated a rebuilding plan of about RMB 120 million.",
+        "From 2006 to 2007, in response to Yinchuan's urban planning and industrial layout adjustment, the company relocated to Helan Desheng Industrial Park and initiated a rebuilding plan of about USD 17.7 million.",
         "After relocation and rebuilding, the company continued exploring food-industry upgrading, introducing Tunisian olive oil and fresh noodle technology and showing foresight in international resources and consumer upgrading.",
-        "As traditional grain-processing operations adjusted, the company invested about RMB 80 million to build a food industrial park. With occupancy above 90% over the past decade, the park has formed a mature tenant structure and operating foundation.",
+        "As traditional grain-processing operations adjusted, the company invested about USD 11.8 million to build a food industrial park. With occupancy above 90% over the past decade, the park has formed a mature tenant structure and operating foundation.",
         "In 2022, based on its Yinchuan and Ningxia Time-Honored Brand foundation, the company participated in the China Time-Honored Brand application process. The same application stage included nationally recognized brands such as Kweichow Moutai and Beijing Tongrentang, underscoring its historical depth and brand heritage.",
-        "Entering the Park 2.0 stage, the project is shifting from basic space operation to enterprise-ecosystem building. It now hosts more than 30 companies, supports about 400 jobs and has incubated several RMB 100 million-level enterprises."
+        "Entering the Park 2.0 stage, the project is shifting from basic space operation to enterprise-ecosystem building. It now hosts more than 30 companies, supports about 400 jobs and has incubated several USD 15 million-level enterprises."
       ]
     },
     assets: {
@@ -236,7 +306,7 @@ export const siteContent = {
         ],
         [
           "Industrial Carrying and Incubation Capacity",
-          "The park has supported about 400 jobs, attracted more than 30 tenant enterprises, and incubated several RMB 100 million-level companies, demonstrating strong enterprise-carrying and incubation value."
+          "The park has supported about 400 jobs, attracted more than 30 tenant enterprises, and incubated several USD 15 million-level companies, demonstrating strong enterprise-carrying and incubation value."
         ],
         [
           "2.0 Upgrade Potential",
@@ -296,13 +366,13 @@ export const siteContent = {
       events: [
         ["1963", "Yinchuan No. 1 Flour Mill was founded, serving local grain processing and supply assurance."],
         ["Around 2000", "The enterprise completed state-owned restructuring and entered a market-oriented development stage."],
-        ["2001-2007", "The company reached a peak stage, with annual output once at RMB 100 million level and sales covering seven northern provinces."],
+        ["2001-2007", "The company reached a peak stage, with annual output once at approximately USD 15 million and sales covering seven northern provinces."],
         ["SARS Period", "Responded to the municipal government's call, benefiting local residents, stabilizing supply and maintaining market order."],
-        ["2006-2007", "Relocated to Helan Desheng Industrial Park in response to Yinchuan municipal planning, with a planned investment of about RMB 120 million for rebuilding."],
+        ["2006-2007", "Relocated to Helan Desheng Industrial Park in response to Yinchuan municipal planning, with a planned investment of about USD 17.7 million for rebuilding."],
         ["Exploration Stage", "Introduced Tunisian olive oil and fresh noodle technology, reflecting foresight in consumer upgrading and food-process innovation."],
-        ["Transformation Stage", "Invested about RMB 80 million to build a food industrial park, with occupancy above 90% over the past decade."],
+        ["Transformation Stage", "Invested about USD 11.8 million to build a food industrial park, with occupancy above 90% over the past decade."],
         ["2022", "Participated in the China Time-Honored Brand application process based on its Yinchuan and Ningxia Time-Honored Brand foundation, in an application stage that included representative brands such as Kweichow Moutai and Beijing Tongrentang."],
-        ["Park 2.0", "Moving toward enterprise-ecosystem upgrading, the park now hosts more than 30 companies, supports about 400 jobs and has incubated several RMB 100 million-level enterprises."]
+        ["Park 2.0", "Moving toward enterprise-ecosystem upgrading, the park now hosts more than 30 companies, supports about 400 jobs and has incubated several USD 15 million-level enterprises."]
       ]
     },
     contact: {
