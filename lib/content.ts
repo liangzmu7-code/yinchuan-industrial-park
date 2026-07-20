@@ -37,8 +37,8 @@ export const siteContent = {
       description:
         "项目的价值来自一条清晰的发展线索：从老牌国有民生企业，到市场化改制后的区域食品品牌，再到响应城市规划搬迁重建，最终转型为成熟食品工业园区运营资产。",
       points: [
-        "1963年，银川第一面粉厂创立，成为银川本地较早服务粮食加工与民生供应的企业之一，奠定了老牌民生产业的历史根基。",
-        "1999/2000年前后，企业完成国有制改革，由家族企业接续经营，从国有民生企业进入市场化发展阶段，这一经历在当时背景下具有较强稀缺性。",
+        "1963年，银川第一面粉厂创立，成为银川本地最早服务粮食加工与民生供应的企业，奠定了老牌民生产业的历史根基。",
+        "2000年前后，企业完成国有制改革，从国有民生企业进入市场化发展阶段，经营机制和发展路径由此发生重要转变。",
         "2001年至2007年，企业进入发展高峰，年产值曾达亿元级别，产品远销北方七个省区，并设有外地办事处，形成跨区域市场影响力。",
         "非典时期，企业响应市政府号召，坚持让利于民、稳定供应，以实际行动维护市场秩序和企业信用。",
         "2006-2007年，企业响应银川市城市规划和产业布局调整，整体搬迁至贺兰德胜工业园区，并启动约1.2亿元园区重建计划。",
@@ -59,7 +59,7 @@ export const siteContent = {
           "项目拥有银川老字号、宁夏老字号品牌基础，并曾参与中华老字号申报；与同一申报阶段中的贵州茅台、北京同仁堂等代表性品牌形成参照，彰显其历史内涵、区域认知和品牌底蕴。"
         ],
         [
-          "稀缺改制与经营韧性",
+          "改制转型与经营韧性",
           "企业经历国有企业、民营经营、搬迁重建和园区转型多个阶段，说明项目经受过制度转型、市场竞争和资产重构的长期考验。"
         ],
         [
@@ -129,7 +129,7 @@ export const siteContent = {
       description: "以下按时间顺序呈现企业从品牌起源、改制经营、市场扩张、责任担当、搬迁重建到园区升级的完整脉络。",
       events: [
         ["1963", "银川第一面粉厂创立，承担本地粮食加工与供应保障功能。"],
-        ["1999/2000", "企业完成国有制改革，由家族企业接手经营，进入市场化经营阶段。"],
+        ["2000前后", "企业完成国有制改革，从国有民生企业进入市场化发展阶段。"],
         ["2001-2007", "企业经营规模进入高峰阶段，年产值曾达到亿元级别，销售网络覆盖北方七个省区。"],
         ["非典时期", "响应市政府号召，让利于民、稳定供应，维护市场秩序和民生价格。"],
         ["2006-2007", "响应银川市政府号召整体搬迁至贺兰德胜工业园区，计划投入约1.2亿元重建园区。"],
@@ -201,8 +201,8 @@ export const siteContent = {
       description:
         "The project’s value comes from a clear development path: from a long-established state-owned livelihood enterprise, to a market-oriented regional food brand, then to relocation and rebuilding under urban planning, and finally to a mature food industrial park asset.",
       points: [
-        "In 1963, Yinchuan No. 1 Flour Mill was founded as one of Yinchuan's early enterprises serving grain processing and livelihood supply, laying the historical foundation of a long-established local industry.",
-        "Around 1999/2000, the enterprise completed state-owned restructuring and continued under family ownership, moving from a state-owned livelihood enterprise into a market-oriented development stage. This experience was comparatively rare in that period.",
+        "In 1963, Yinchuan No. 1 Flour Mill was founded as Yinchuan's earliest enterprise serving grain processing and livelihood supply, laying the historical foundation of a long-established local industry.",
+        "Around 2000, the enterprise completed state-owned restructuring and moved from a state-owned livelihood enterprise into a market-oriented development stage, marking an important shift in its operating mechanism and growth path.",
         "From 2001 to 2007, the company entered a peak growth period. Annual output once reached RMB 100 million level, products were sold across seven northern provinces, and regional offices supported cross-regional market influence.",
         "During the SARS period, the company responded to the municipal government's call by benefiting local residents and stabilizing supply, reinforcing market order and corporate credibility through action.",
         "From 2006 to 2007, in response to Yinchuan's urban planning and industrial layout adjustment, the company relocated to Helan Desheng Industrial Park and initiated a rebuilding plan of about RMB 120 million.",
@@ -223,7 +223,7 @@ export const siteContent = {
           "The project has a brand foundation as a Yinchuan Time-Honored Brand and Ningxia Time-Honored Brand, and has participated in the China Time-Honored Brand application process. Its presence in an application stage alongside representative brands such as Kweichow Moutai and Beijing Tongrentang underscores its historical depth, regional recognition and brand heritage."
         ],
         [
-          "Rare Restructuring and Operating Resilience",
+          "Restructuring, Transformation and Operating Resilience",
           "The enterprise has gone through state ownership, private operation, relocation and rebuilding, and industrial park transformation, showing resilience through institutional transition, market competition and asset restructuring."
         ],
         [
@@ -295,7 +295,7 @@ export const siteContent = {
         "The following timeline presents the project’s path from brand origin, restructuring, market expansion and social responsibility to relocation, rebuilding and park upgrading.",
       events: [
         ["1963", "Yinchuan No. 1 Flour Mill was founded, serving local grain processing and supply assurance."],
-        ["1999/2000", "The enterprise completed state-owned restructuring and entered market-oriented operation under family ownership."],
+        ["Around 2000", "The enterprise completed state-owned restructuring and entered a market-oriented development stage."],
         ["2001-2007", "The company reached a peak stage, with annual output once at RMB 100 million level and sales covering seven northern provinces."],
         ["SARS Period", "Responded to the municipal government's call, benefiting local residents, stabilizing supply and maintaining market order."],
         ["2006-2007", "Relocated to Helan Desheng Industrial Park in response to Yinchuan municipal planning, with a planned investment of about RMB 120 million for rebuilding."],
